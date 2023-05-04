@@ -161,7 +161,7 @@ def add_record(item):
         
         if not os.path.exists(os.path.join(copy_folder, os.path.basename("combine.txt"))):
             with open(os.path.join(copy_folder, os.path.basename("combine.txt")), 'a') as f:
-                f.write('ACCOUNT_REF,SURNAME,FORENAME,TRN,CR_CONTRACT_NUMBER,DB_CONTRACT_NUMBER,TRANSACTION_TYPE,TRANSACTION_DATE,SETTLEMENT_DATE, CR_ISIN_CODE,DB_ISIN_CODE,CR_ISIN_PRICE,DB_ISIN_PRICE,CR_CASH_OBLIGATION,DB_CASH_OBLIGATION,CR_NOMINAL_VALUE,DB_NOMINAL_VALUE, CR_SECURITY_MARKET_VALUE,DB_SECURITY_MARKET_VALUE,CR_MARGIN,DB_MARGIN,CASH_CURRENCY,EXCHANGE_RATE,INTEREST_RATE,MATURITY_DATE,REMARKS\n')
+                f.write('')
         
         if os.path.exists(os.path.join(copy_folder, os.path.basename("combine.txt"))):
             with open(os.path.join(copy_folder, os.path.basename("combine.txt")), 'a') as destination_file:
@@ -190,7 +190,7 @@ def result_view():
     
 
     data = [
-    ["ITEM", "ACCOUNT_REF", "SURNAME" ,"FORENAME","TRN","CR_CONTRACT_NUMBER","DB_CONTRACT_NUMBER","TRANSACTION_TYPE","TRANSACTION_DATE","SETTLEMENT_DATE", "CR_ISIN_CODE","DB_ISIN_CODE","CR_ISIN_PRICE","DB_ISIN_PRICE","CR_CASH_OBLIGATION","DB_CASH_OBLIGATION","CR_NOMINAL_VALUE","DB_NOMINAL_VALUE", "CR_SECURITY_MARKET_VALUE","DB_SECURITY_MARKET_VALUE","CR_MARGIN","DB_MARGIN","CASH_CURRENCY","EXCHANGE_RATE","INTEREST_RATE","MATURITY_DATE","REMARKS"],
+    ["ITEM1", "ITEM2", "ITEM3" ,"ITEM4","ITEM5","ITEM6","ITEM7"],
     
 ]
     tree = ttk.Treeview(result_window, columns=data[0], show="headings")
