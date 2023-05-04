@@ -2,7 +2,7 @@
 
 ## Text Document String Search
 
-*Disclaimer: Personal project, utilized in very niche circumstances. Program may not suit the average person's needs.*
+** *Disclaimer: Personal project, utilized in very niche circumstances. Program may not suit the average person's needs.* **
 
 The program is designed to accept a string from the user and search a folder containing subfolders for the containing string.
 Once the containing string is found, the program displays all results in a table format, and then offers
