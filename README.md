@@ -10,7 +10,7 @@ the user the option to copy the line in the text document containing the result 
 
 *This program only searches text documents*
 
-##How to Use
+## How to Use
 
 ![image](https://user-images.githubusercontent.com/53978750/236326088-62843c5c-f26c-4a73-9f1d-96444885936f.png)
 
